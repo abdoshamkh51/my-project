@@ -1,0 +1,10 @@
+package main.EWallet912.enums;
+
+public enum TransferStatus {
+    SENDER_NOT_FOUND,
+    RECEIVER_NOT_FOUND,
+    CANNOT_TRANSFER_TO_SELF,
+    AMOUNT_LESS_THAN_MINIMUM,
+    INSUFFICIENT_BALANCE,
+    SUCCESS;
+}
